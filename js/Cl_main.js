@@ -31,12 +31,12 @@ salida.innerHTML += "<br>Nombre del juguete: " + carrito.nombre + "<br>" +
 "cantidad: " + carrito.cantidad + "<br>" + 
 "Precio base: $" + carrito.precioB + "<br>" +
 "Edad recomendada: " + carrito.edad + "<br>" +
-"Monto a pagar por el " + carrito.nombre + ": $" + carrito.aPagar() +
+"Monto a pagar por el " + carrito.nombre + ": $" + carrito.descuento() +
 "<br>";
 
 salida.innerHTML += "<br>Nombre del juguete: " + peluche.nombre + "<br>" +
 "Cantidad: " + peluche.cantidad + "<br>" +
 "Precio base: $" + peluche.precioB + "<br>" +
 "Edad recomendada: " + peluche.edad + "<br>" +
-"Monto a pagar por el " + peluche.nombre + ": $" + peluche.aPagar() +
+"Monto a pagar por el " + peluche.nombre + ": $" + peluche.descuento() +
 "<br>";

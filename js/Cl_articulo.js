@@ -4,10 +4,8 @@ export default class Cl_articulo {
         this.cantidad = cantidad;
         this.precioB = precioB;
     }
-    descuento() {
-        return 0;
-    }
+    
     aPagar(){
-     return this.cantidad * this.precioB - this.descuento();
+       return this.precioB * this.cantidad;
     }
 }
